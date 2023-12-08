@@ -152,13 +152,27 @@ And that file does NOT inherit any further files!  Phew, finally!
 If ANY ONE of those above files are removed, or deleted, then any higher level file that "inherits" that file
 will not work anymore!
 
-
+=====================================================================================================================
 
 So now, how to FIX your "disappeared" profiles!!!
 
 Well, you need to be sure any inheritted files LISTED do exist. Or edit it to point to another similar file.
+
 Maybe you removed the Creality K1 max printer?  If you put it back then the inherit chain will be there again,
 thus your own Profiles will work again and "re-apprear".
-If you don't want, or like, the big clutter of files,
+
+If you don't want, or like, the big clutter of files you get from adding a printer, you could delete all the ones
+you do not want - but you will need to keep any files that Inherits in your profile chain use!
+
+You could possibly add your own "complete" Profile that does not require a chain of inherits. But I think you
+at least always need to inherit from a base OrcaSlicer file.
+I have not worked out how to do this yet.... but it should be possible to make you own file that ONLY relies on
+the basic, built in, OrcaSlicer "name": "fdm_process_common" etc.  Thus no need to add any other printers.
+Or manually add ONLY the chain that you want, from some printer (whether that is your brand or not) and edit
+the names etc to be what you want. So it looks 'good' in the OrcaSlicer profiles list (its name etc).
+
+
+
+But anyway, THAT is why YOU BROKE your OrcaSlicer profiles and they "disappeared" !!!!
 
 
